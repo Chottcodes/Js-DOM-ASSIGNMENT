@@ -55,5 +55,12 @@ changeColorBTN.addEventListener("click", function () {
   }
 });
 resetBTN.addEventListener("click", function () {
-    colors
+  box1.style.backgroundColor = "white";
+  box2.style.backgroundColor = "white";
+  box3.style.backgroundColor = "white";
+  box4.style.backgroundColor = "white";
+  box5.style.backgroundColor = "white";
+  box6.style.backgroundColor = "white";
+  box7.style.backgroundColor = "white";
+  box8.style.backgroundColor = "white";
 });
