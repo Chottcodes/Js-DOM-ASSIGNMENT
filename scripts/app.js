@@ -55,5 +55,5 @@ changeColorBTN.addEventListener("click", function () {
   }
 });
 resetBTN.addEventListener("click", function () {
- 
+    colors
 });
