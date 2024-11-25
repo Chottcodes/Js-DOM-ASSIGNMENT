@@ -51,17 +51,9 @@ changeColorBTN.addEventListener("click", function () {
       if (boxNum < 0 || boxNum > 8) {
         alert("Please enter numbers 1-8");
       }
-
       break;
   }
 });
 resetBTN.addEventListener("click", function () {
-  box1.style.backgroundColor = "white";
-  box2.style.backgroundColor = "white";
-  box3.style.backgroundColor = "white";
-  box4.style.backgroundColor = "white";
-  box5.style.backgroundColor = "white";
-  box6.style.backgroundColor = "white";
-  box7.style.backgroundColor = "white";
-  box8.style.backgroundColor = "white";
+ 
 });
