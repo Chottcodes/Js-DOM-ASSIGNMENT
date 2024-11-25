@@ -21,7 +21,7 @@ let resetBTN = document.getElementById("resetBTN");
 //add a event listener to button change color
 changeColorBTN.addEventListener("click", function () {
   let boxNum = parseInt(boxNumberInput.value);
-  
+
   switch (boxNum) {
     case 1:
       box1.style.backgroundColor = boxColorInput.value.toLowerCase();
